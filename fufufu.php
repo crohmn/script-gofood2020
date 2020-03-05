@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[]          ASU JINGAN FUFUFU          []\n");
+echo color("red","[]          TUYUL TEMPEK GAES          []\n");
 echo color("green","[]           NOM NOMAN TAEKK           []\n");
 echo color("yellow","[] Coli:  ".date('[d-m-Y] [H:i:s]')."  []\n");
 echo color("red","[]        TULIS NOMER PAKAI 62         []\n");
@@ -29,7 +29,7 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(REDEEM VOUCHER)===========");
-        echo "\n".color("yellow","!] Klem GOFOOD021120A");
+        echo "\n".color("yellow","!] Klem GOFOOD02260A");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -42,7 +42,7 @@ function change(){
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Klem GOFOOD021120B");
+        echo "\n".color("yellow","!] Klem GOFOOD022620B");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
